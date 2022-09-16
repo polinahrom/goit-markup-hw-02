@@ -1,0 +1,72 @@
+/* текст колір #757575
+#212121 основний колір
+#000000 лого 
+колір виділення #2196F3
+#FFFFFF білий
+фон основний #F5F5F5
+фон додатковий #F5F4FA;
+фон #2F303A
+ */
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --second-text-color: #FFFFFF;
+    --acceny-color: #2196F3;
+    --primary-text-color: #F5F5F5;
+    --footer-bg-color: #2F303A;
+    --primary-bg-color: #F5F5F5;
+    --second-bg-color: #F5F4FA;
+    --header-bg-color: #FFFFFF;
+}
+/* background */
+.header {
+    background-color: var(--header-bg-color);
+}
+.section.hero {
+    background-color: var(--footer-bg-color);
+}
+.section.specifics {
+    background-color: var(--primary-bg-color);
+}
+.section.works {
+    background-color: var(--primary-bg-color);
+}
+.section.team {
+    background-color: var(--second-bg-color);
+}
+.footer {
+    background-color: var(--footer-bg-color);
+}
+/* link */
+.site-nav.link:hover, .site-nav.link:focus {
+color: var(--acceny-color);
+}
+/* color text */
+.section.hero.hero-title {
+    color: var(--second-text-color);
+}
+.section.hero.button {
+    color: var(--second-text-color);
+    background-color: var(--acceny-color);
+}
+.section.specifics.specifics-title {
+    color: var(--title-text-color);
+}
+.section.specifics.specifics-text {
+    color: var(--primary-text-color);
+}
+.section.works {
+    color: var(--title-text-color);
+}
+.section.team.team-title {
+    color: var(--title-text-color);
+}
+.li.person.name {
+    color: var(--title-text-color);
+}
+.li.person.job-title {
+    color: var(--primary-text-color);
+}
+ul.contact {
+    color: var(--second-text-color);
+}
