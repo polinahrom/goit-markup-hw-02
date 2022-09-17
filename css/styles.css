@@ -54,7 +54,7 @@ footer {
 }
 
 /* color text */
-section.hero.hero-title {
+.hero-title {
     color: var(--second-text-color);
 }
 
