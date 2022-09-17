@@ -70,3 +70,10 @@ color: var(--acceny-color);
 ul.contact {
     color: var(--second-text-color);
 }
+/* шрифт */
+body {
+    font-family: Roboto, sans-serif;
+}
+.logo {
+    font-family: Raleway, sans-serif;
+}
