@@ -246,4 +246,5 @@ a.map {
 .filters button:focus {
     background-color: var(--acceny-color);
     color: var(--second-text-color);
+    cursor: pointer;
 }
