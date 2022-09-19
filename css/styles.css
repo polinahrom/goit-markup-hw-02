@@ -231,17 +231,15 @@ a.map {
 
 .filters button {
     background-color: var(--second-bg-color);
-    border: none;
+
     font-size: 16px;
-    border-radius: 4px;
-    padding-inline: 22px;
-    padding-block: 6px;
+
     font-weight: 500;
     line-height: 26px;
 }
 
 .filters h1 {
-    display: none;
+    visibility: hidden;
 }
 
 .filters button:hover,
