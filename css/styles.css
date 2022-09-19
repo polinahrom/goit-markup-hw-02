@@ -57,10 +57,17 @@ footer {
 .link {
     color: var(--title-text-color);
 }
-.site-nav.link:hover,
-.site-nav.link:focus {
+.link-mail {
+    color: var(--primary-text-color);
+}
+.link-tel {
+    color: var(--primary-text-color);
+}
+.link:hover,
+.link:focus {
     color: var(--acceny-color);
 }
+
 
 /* color text */
 .hero-title {
@@ -97,7 +104,7 @@ section.specifics.specifics-title {
         text-transform: uppercase;
 }
 
-.specifics specifics-text {
+.specifics-text {
     color: var(--primary-text-color);
     font-family: 'Roboto';
         font-size: 14px;
@@ -135,13 +142,11 @@ li.person.name {
         letter-spacing: 0.03em;
 }
 
-li.person.job-title {
+.job-title {
     color: var(--primary-text-color);
     font-family: 'Roboto';
         font-size: 16px;
         line-height: 1.18;
-        text-align: center;
-        letter-spacing: 0.03em;
 }
 
 ul.contact {
