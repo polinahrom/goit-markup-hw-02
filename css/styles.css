@@ -181,7 +181,6 @@ button:focus {
     letter-spacing: 0.03em;
 }
 
-/* СѓРґР°Р»РёР» С„РѕРЅС‚ С„РµРјРёР»Рё */
 .name {
     color: var(--title-text-color);
     font-weight: 500;
