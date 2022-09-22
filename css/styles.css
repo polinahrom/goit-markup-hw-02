@@ -55,7 +55,7 @@ section.works {
 }
 
 section.team {
-    background-color: var(--header-bg-color);
+    background-color: var(--second-bg-color);
 }
 
 footer {
@@ -63,32 +63,33 @@ footer {
 }
 
 /* link */
-.site-nav a {
-    color: var(--title-text-color);
-}
-
-.link:hover,
-.link:focus {
-    color: var(--acceny-color);
-}
-
-.contact-footer a:hover,
-.contact-footer a:focus {
-    color: var(--acceny-color);
-}
-
-ul.site-nav,
-ul.contact {
+.nav-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    color: var(--title-text-color);
 }
 
-.contact a {
+.contact-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
 
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--acceny-color);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--acceny-color);
+}
+
+/* РґРѕРµР±РµС‚СЃСЏ */
 .contact-footer a {
     color: var(--footer-address-rgba);
     font-size: 14px;
@@ -96,8 +97,13 @@ ul.contact {
     letter-spacing: 0.03em;
 }
 
+.contact-footer a:hover,
+.contact-footer a:focus {
+    color: var(--acceny-color);
+}
+
 /* color text */
-/* СѓРґР°Р»РёР» С„РѕРЅС‚ С„РµРјРёР»Рё */
+
 .hero-title {
     color: var(--second-text-color);
     font-weight: 900;
@@ -108,7 +114,6 @@ ul.contact {
     text-transform: uppercase;
 }
 
-/* РґРѕР±Р°РІРёР» РєСѓСЂСЃРѕСЂ */
 .hero button {
     color: var(--second-text-color);
     background-color: var(--acceny-color);
@@ -120,7 +125,6 @@ ul.contact {
     letter-spacing: 0.06em;
 }
 
-/* С…РѕРІРµСЂ Рё С„РѕРєСѓСЃ РЅР° РєРЅРѕРїРєСѓ */
 button:hover,
 button:focus {
     background: var(--button-hover-color);
@@ -129,7 +133,6 @@ button:focus {
     cursor: pointer;
 }
 
-/* СЃРєСЂС‹Р» Р·Р°РіРѕР»РѕРІРѕРє*/
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -143,7 +146,6 @@ button:focus {
     overflow: hidden;
 }
 
-/* СѓРґР°Р»РёР» Р»РёС€РЅРµРµ РІ РїСѓС‚Рё */
 .specifics-title {
     color: var(--title-text-color);
     font-weight: 700;
@@ -153,7 +155,6 @@ button:focus {
     text-transform: uppercase;
 }
 
-/* СѓРґР°Р»РёР» С„РѕРЅС‚ С„РµРјРёР»Рё */
 .specifics-text {
     color: var(--primary-text-color);
     font-size: 14px;
@@ -161,7 +162,6 @@ button:focus {
     letter-spacing: 0.03em;
 }
 
-/* СѓРґР°Р»РёР» С„РѕРЅС‚ С„РµРјРёР»Рё */
 .works-title {
     color: var(--title-text-color);
     font-weight: 700;
@@ -171,7 +171,10 @@ button:focus {
     letter-spacing: 0.03em;
 }
 
-/* СѓРґР°Р»РёР» Р»РёС€РЅРµРµ РІ РїСѓС‚Рё Рё С„РѕРЅС‚ С„РµРјРёР»Рё*/
+.person {
+    background-color: var(--second-text-color);
+}
+
 .team-title {
     color: var(--title-text-color);
     font-weight: 700;
@@ -186,10 +189,10 @@ button:focus {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
+    text-align: center;
     letter-spacing: 0.03em;
 }
 
-/* СѓРґР°Р»РёР» С„РѕРЅС‚ С„РµРјРёР»Рё */
 .job-title {
     color: var(--primary-text-color);
     font-size: 16px;
@@ -197,7 +200,66 @@ button:focus {
     letter-spacing: 0.03em;
 }
 
-/* СѓРґР°Р»РёР» С„РѕРЅС‚ С„РµРјРёР»Рё */
+.examples-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.example-text {
+    color: var(--primary-text-color);
+
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+}
+
+/* С€СЂРёС„С‚ */
+
+address {
+    font-style: normal;
+}
+
+.logo {
+    color: var(--acceny-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.studio {
+    color: var(--second-text-color);
+}
+
+.nav-studio {
+    color: var(--title-text-color);
+}
+
+a.map {
+    color: var(--second-text-color);
+}
+
+/* СЃС‚СЂР°РЅРёС†Р° РїРѕСЂС‚С„РѕР»РёРѕ */
+
+.filters button {
+    background-color: var(--second-bg-color);
+
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.filters button:hover,
+.filters button:focus {
+    background-color: var(--acceny-color);
+    color: var(--second-text-color);
+    cursor: pointer;
+}
 
 /* СѓРґР°Р»РёР» С„РѕРЅС‚ С„РµРјРёР»Рё */
 .examples-title {
