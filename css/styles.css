@@ -123,14 +123,12 @@ footer {
     line-height: 1.87;
     text-align: center;
     letter-spacing: 0.06em;
+    border-color: transparent;
 }
 
 button:hover,
 button:focus {
-    background: var(--button-hover-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    cursor: pointer;
+    background-color: var(--button-hover-color);
 }
 
 .visually-hidden {
@@ -245,17 +243,20 @@ a.map {
 
 /* СЃС‚СЂР°РЅРёС†Р° РїРѕСЂС‚С„РѕР»РёРѕ */
 
-.filters button {
+.btn {
     background-color: var(--second-bg-color);
-
     font-size: 16px;
     font-family: inherit;
     font-weight: 500;
-    line-height: 26px;
+    letter-spacing: 00.03em;
+    line-height: 1.62px;
+    cursor: pointer;
+    border-color: transparent;
+    border-radius: 4px;
 }
 
-.filters button:hover,
-.filters button:focus {
+.filters .btn:hover,
+.filters .btn:focus {
     background-color: var(--acceny-color);
     color: var(--second-text-color);
     cursor: pointer;
@@ -323,4 +324,7 @@ a.map {
     background-color: var(--acceny-color);
     color: var(--second-text-color);
     cursor: pointer;
+}
+.nav-link.current {
+    color: var(--acceny-color);
 }
